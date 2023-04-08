@@ -12,7 +12,6 @@ const Layout = ({ children }) => {
           btnStyle="btn-small round btn-icon"
           HeaderSTyle="header-not-transparent"
         />
-        <img src={`${process.env.PUBLIC_URL}/images/demo/404.png`} />
         {children}
         <Footer />
       </main>
