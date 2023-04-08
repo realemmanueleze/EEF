@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { FiChevronUp } from "react-icons/fi";
-import Blury from "@/common/Blury";
+import Blury from "@/components/common/Blury";
 
 const ScrollTop = () => {
   const [visible, setVisible] = useState(false);

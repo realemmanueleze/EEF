@@ -1,8 +1,8 @@
 import React from 'react';
 import {Link} from "react-router-dom";
 import { FiFacebook, FiTwitter, FiInstagram, FiLinkedin } from "react-icons/fi";
-import SEO from "../../common/SEO";
-import Layout from "../../common/Layout";
+import SEO from "../../components/common/SEO";
+import Layout from "../../components/common/Layout";
 import BreadcrumbOne from "../breadcrumb/BreadcrumbOne";
 import SectionTitle from "../sectionTitle/SectionTitle";
 import Separator from "../separator/Separator";

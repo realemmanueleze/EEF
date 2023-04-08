@@ -9,15 +9,15 @@
 /*-- Variables --*/
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap");
 :root {
-  --color-primary: #059DFF;
+  --color-primary: #007A35;
   --color-primary-rgba: rgb(5, 157, 255);
-  --color-primary-alt: #059DFF;
-  --color-primary-light: #059DFF;
-  --color-primary-lightest: #059DFF;
-  --color-secondary: #FB5343;
-  --color-tertiary: #6549D5;
-  --color-tertiary-alt: #6549D5;
-  --color-pink: #E33FA1;
+  --color-primary-alt: #00CC58;
+  --color-primary-light: #00CC58;
+  --color-primary-lightest: hsl(146, 100%, 40%);
+  --color-secondary: #F9C22E;
+  --color-tertiary: #F0544F;
+  --color-tertiary-alt: #F0544F;
+  --color-pink: #D81E5B;
   --color-light-green: #36C6F0;
   --color-primary-darker: #011827;
   --color-tertiary-darker: #150b40;
@@ -7287,7 +7287,7 @@ input[type=submit]:hover {
   align-items: center;
 }
 .header-default .logo a img {
-  max-height: 45px;
+  max-height: 150px;
 }
 .header-default .header-right {
   display: flex;

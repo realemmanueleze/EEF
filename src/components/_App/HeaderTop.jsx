@@ -7,7 +7,7 @@ const HeaderTop = () => {
     <div
       className={`header-top-news bg_image ${deactive}`}
       style={{
-        backgroundImage: `url(${process.env.PUBLIC_URL}/images/bg/top-banner.png)`,
+        backgroundImage: `url(/images/bg/top-banner.png)`,
       }}
     >
       <div className="wrapper">
@@ -16,10 +16,10 @@ const HeaderTop = () => {
             <div className="col-lg-12">
               <div className="inner">
                 <div className="content">
-                  <span className="rn-badge">Limited Time Offer</span>
+                  <span className="rn-badge">$2,500 Scholarship</span>
                   <span className="news-text">
-                    Intro price. Get Doob for Big Sale{" "}
-                    <strong>-95% off.</strong>
+                    Apply for our Tech BootCamp{" "}
+                    <strong>-Age: 8-17.</strong>
                   </span>
                 </div>
                 <div className="right-button">
@@ -28,8 +28,8 @@ const HeaderTop = () => {
                     target="_blank"
                     href="https://themeforest.net/checkout/from_item/33571911?license=regular"
                   >
-                    <span>
-                      Purchase Now <FiArrowRight />
+                    <span className="">
+                      Apply Now <FiArrowRight />
                     </span>
                   </a>
                 </div>

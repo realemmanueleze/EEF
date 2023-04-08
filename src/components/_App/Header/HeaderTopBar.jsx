@@ -19,7 +19,7 @@ const HeaderTopBar = () => {
             <div className="header-left">
               <p>
                 <a href="#link">
-                  Get the most advanced template <FiChevronRight />
+                 Enroll in our Tech BootCamp <FiChevronRight />
                 </a>
               </p>
             </div>
