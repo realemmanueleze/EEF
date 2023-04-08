@@ -1,5 +1,5 @@
 import React from "react";
-import Logo from "@/elements/logo/Logo";
+import Logo from "@/components/common/logo/Logo";
 import Nav from "./Nav";
 import { FiX } from "react-icons/fi";
 

@@ -2,12 +2,12 @@ import React from 'react';
 import SEO from "../../components/common/SEO";
 import Layout from "../../components/common/Layout";
 import BreadcrumbOne from "../breadcrumb/BreadcrumbOne";
-import SectionTitle from "../sectionTitle/SectionTitle";
+import SectionTitle from "../../components/common/sectionTitle/SectionTitle";
 import BrandOne from "./BrandOne";
 import BrandTwo from "./BrandTwo";
 import BrandThree from "./BrandThree";
 import BrandFour from "./BrandFour";
-import Separator from "../separator/Separator";
+import Separator from "../../components/common/separator/Separator";
 
 const Brand = () => {
     return (

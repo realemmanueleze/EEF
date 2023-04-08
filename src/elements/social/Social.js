@@ -4,8 +4,8 @@ import { FiFacebook, FiTwitter, FiInstagram, FiLinkedin } from "react-icons/fi";
 import SEO from "../../components/common/SEO";
 import Layout from "../../components/common/Layout";
 import BreadcrumbOne from "../breadcrumb/BreadcrumbOne";
-import SectionTitle from "../sectionTitle/SectionTitle";
-import Separator from "../separator/Separator";
+import SectionTitle from "../../components/common/sectionTitle/SectionTitle";
+import Separator from "../../components/common/separator/Separator";
 
 
 

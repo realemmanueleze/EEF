@@ -4,7 +4,7 @@ import { FiArrowRight , FiPlay } from "react-icons/fi";
 import ScrollAnimation from "react-animate-on-scroll";
 import SEO from "../../components/common/SEO";
 import Layout from "../../components/common/Layout";
-import BreadcrumbOne from "../breadcrumb/BreadcrumbOne";
+import BreadcrumbOne from "../../../elements/breadcrumb/BreadcrumbOne";
 import SectionTitle from "../sectionTitle/SectionTitle";
 import Separator from "../separator/Separator";
 

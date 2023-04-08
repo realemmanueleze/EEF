@@ -4,13 +4,13 @@ import Layout from "../../components/common/Layout";
 import HeaderOne from "../../components/common/header/HeaderOne";
 import FooterOne from "../../components/common/footer/FooterOne";
 import BreadcrumbOne from "../breadcrumb/BreadcrumbOne";
-import SectionTitle from "../sectionTitle/SectionTitle";
+import SectionTitle from "../../components/common/sectionTitle/SectionTitle";
 import ServiceOne from "./ServiceOne";
 import ServiceTwo from "./ServiceTwo";
 import ServiceThree from "./ServiceThree";
 import ServiceFour from "./ServiceFour";
 import ServiceFive from "./ServiceFive";
-import Separator from "../separator/Separator";
+import Separator from "../../components/common/separator/Separator";
 
 const Service = () => {
     return (

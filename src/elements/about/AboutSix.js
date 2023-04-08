@@ -1,7 +1,7 @@
 import React from 'react';
 import {Link} from "react-router-dom";
 import ProgressbarOne from "../progressbar/ProgressbarOne";
-import SectionTitleTwo from "../sectionTitle/SectionTitleTwo";
+import SectionTitleTwo from "../../components/common/sectionTitle/SectionTitleTwo";
 
 const AboutSix = () => {
     return (

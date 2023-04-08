@@ -4,7 +4,7 @@ import Nav from "./Nav";
 import MobileMenu from "./MobileMenu";
 import Darkmode from "./Darkmode";
 import useStickyHeader from "./useStickyHeader";
-import Logo from "@/elements/logo/Logo";
+import Logo from "@/components/common/logo/Logo";
 
 const HeaderOne = ({ btnStyle, HeaderSTyle }) => {
   const [ofcanvasShow, setOffcanvasShow] = useState(false);

@@ -1,7 +1,7 @@
 import React from 'react';
 import ScrollAnimation from "react-animate-on-scroll";
 import { FiArrowRight } from "react-icons/fi";
-import Logo from "../logo/Logo";
+import Logo from "../../components/common/logo/Logo";
 
 const callToActionData = {
     title: "Ready to start creating a standard website?",

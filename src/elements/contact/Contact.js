@@ -2,7 +2,7 @@ import React from 'react';
 import SEO from "../../components/common/SEO";
 import Layout from "../../components/common/Layout";
 import BreadcrumbOne from "../breadcrumb/BreadcrumbOne";
-import SectionTitle from "../sectionTitle/SectionTitle";
+import SectionTitle from "../../components/common/sectionTitle/SectionTitle";
 import ContactOne from "./ContactOne";
 
 const Contact = () => {

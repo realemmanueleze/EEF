@@ -2,9 +2,9 @@ import React from 'react';
 import SEO from "../../components/common/SEO";
 import Layout from "../../components/common/Layout";
 import BreadcrumbOne from "../breadcrumb/BreadcrumbOne";
-import SectionTitle from "../sectionTitle/SectionTitle";
-import AccordionOne from "./AccordionOne";
-import Separator from "../separator/Separator";
+import SectionTitle from "../../components/common/sectionTitle/SectionTitle";
+import AccordionOne from "../../components/common/accordion/AccordionOne";
+import Separator from "../../components/common/separator/Separator";
 
 const RnAccordion = () => {
     return (

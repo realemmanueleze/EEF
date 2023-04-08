@@ -1,9 +1,9 @@
 import React from 'react';
-import Separator from "../separator/Separator";
+import Separator from "../../components/common/separator/Separator";
 import SEO from "../../components/common/SEO";
 import Layout from "../../components/common/Layout";
 import BreadcrumbOne from "../breadcrumb/BreadcrumbOne";
-import SectionTitle from "../sectionTitle/SectionTitle";
+import SectionTitle from "../../components/common/sectionTitle/SectionTitle";
 import TimelineOne from "./TimelineOne";
 import TimelineTwo from "./TimelineTwo";
 
