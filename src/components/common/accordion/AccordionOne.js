@@ -1,57 +1,61 @@
-import React from 'react'
-import { Accordion, Card, Button } from 'react-bootstrap';
+import React from "react";
+import { Accordion, Card, Button } from "react-bootstrap";
 
-const AccordionOne = ({customStyle}) => {
-    return (
-        <Accordion className={`rn-accordion-style ${customStyle}`} defaultActiveKey="0">
-            <Card>
-                <Card.Header>
-                <Accordion.Toggle as={Button} variant="link" eventKey="0">
-                    What is Doob ? How does it work?
-                </Accordion.Toggle>
-                </Card.Header>
-                <Accordion.Collapse eventKey="0">
-                    <Card.Body>Welcome to Doob React Creative Agency, React Portfolio and Corporate Multi Purpose Template Built With React JS. NO jQuery!. </Card.Body>
-                </Accordion.Collapse>
-            </Card>
+const AccordionOne = ({ customStyle }) => {
+  return (
+    <Accordion
+      className={`rn-accordion-style ${customStyle}`}
+      defaultActiveKey="0"
+    >
+      <Card>
+        <Card.Header>
+          <Accordion.Toggle as={Button} variant="link" eventKey="0">
+            What age group is eligible for the bootcamps?
+          </Accordion.Toggle>
+        </Card.Header>
+        <Accordion.Collapse eventKey="0">
+          <Card.Body>
+            Children and teens aged 8-17 are eligible for the bootcamps.
+          </Card.Body>
+        </Accordion.Collapse>
+      </Card>
 
-            <Card>
-                <Card.Header>
-                <Accordion.Toggle as={Button} variant="link" eventKey="1">
-                    How can I run doob react template?
-                </Accordion.Toggle>
-                </Card.Header>
-                <Accordion.Collapse eventKey="1">
-                    <Card.Body>You can run doob easily. First You'll need to have node and npm on your machine. So Please open your command prompt then check your node -v and npm -v Version. Goes To Your your command prompt: then First: npm install
+      <Card>
+        <Card.Header>
+          <Accordion.Toggle as={Button} variant="link" eventKey="1">
+            Are the bootcamps free of charge?
+          </Accordion.Toggle>
+        </Card.Header>
+        <Accordion.Collapse eventKey="1">
+          <Card.Body>Yes, all bootcamps are free of charge.</Card.Body>
+        </Accordion.Collapse>
+      </Card>
 
-                    At Last: npm run start. By the following way you can be run your project easily.</Card.Body>
-                </Accordion.Collapse>
-            </Card>
+      <Card>
+        <Card.Header>
+          <Accordion.Toggle as={Button} variant="link" eventKey="2">
+            How long does each bootcamp last?
+          </Accordion.Toggle>
+        </Card.Header>
+        <Accordion.Collapse eventKey="2">
+          <Card.Body>Each bootcamp lasts for 12 weeks.</Card.Body>
+        </Accordion.Collapse>
+      </Card>
 
-            <Card>
-                <Card.Header>
-                <Accordion.Toggle as={Button} variant="link" eventKey="2">
-                    How can I get the customer support?
-                </Accordion.Toggle>
-                </Card.Header>
-                <Accordion.Collapse eventKey="2">
-                    <Card.Body>After purchasing the product need you any support you can be share with us with sending mail to rainbowit10@gmail.com.</Card.Body>
-                </Accordion.Collapse>
-            </Card>
-
-            <Card>
-                <Card.Header>
-                <Accordion.Toggle as={Button} variant="link" eventKey="3">
-                    Can I get update regularly and For how long do I get updates?
-                </Accordion.Toggle>
-                </Card.Header>
-                <Accordion.Collapse eventKey="3">
-                    <Card.Body>Yes, We will get update the Trydo. And you can get it any time. Next time we will comes with more feature. You can be get update for unlimited times. Our dedicated team works for update.</Card.Body>
-                </Accordion.Collapse>
-            </Card>
-
-        </Accordion>
-    )
-}
-export default AccordionOne
-
+      <Card>
+        <Card.Header>
+          <Accordion.Toggle as={Button} variant="link" eventKey="3">
+            What are the different types of bootcamps offered by the foundation?
+          </Accordion.Toggle>
+        </Card.Header>
+        <Accordion.Collapse eventKey="3">
+          <Card.Body>
+            The foundation offers three distinct bootcamps: the math bootcamp,
+            coding bootcamp, and design bootcamp.
+          </Card.Body>
+        </Accordion.Collapse>
+      </Card>
+    </Accordion>
+  );
+};
+export default AccordionOne;
