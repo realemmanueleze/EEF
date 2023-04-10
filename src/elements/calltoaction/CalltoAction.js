@@ -10,7 +10,7 @@ import CalltoActionFour from "./CalltoActionFour";
 import CalltoActionFive from "./CalltoActionFive";
 import CalltoActionSix from "./CalltoActionSix";
 import CalltoActionSeven from "./CalltoActionSeven";
-import CalltoActionEight from "./CalltoActionEight";
+import CalltoActionEight from "../../components/common/calltoactions/CalltoActionTwo";
 import Separator from "../../components/common/separator/Separator";
 
 

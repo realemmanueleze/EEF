@@ -4,7 +4,10 @@ import { Hero } from "@/components/Hero";
 import Separator from "@/components/common/separator/Separator";
 import { About } from "@/components/About";
 import { BootCamps } from "@/components/BootCamps";
-import CalltoActionEight from "@/elements/calltoaction/CalltoActionEight";
+import {
+  CalltoActionOne,
+  CalltoActionTwo,
+} from "@/components/common/calltoactions";
 import { FrequentlyAskedQuestions } from "@/components/FrequentlyAskedQuestions";
 import { Team } from "@/components/Team";
 
@@ -24,13 +27,14 @@ export default function Home() {
       <About />
       <Separator />
       <BootCamps />
-      <CalltoActionEight />
+      <CalltoActionOne />
       <FrequentlyAskedQuestions />
       <Separator />
       <Team
         column="col-lg-3 col-md-6 col-12"
         teamStyle="team-style-default style-two"
       />
+      <CalltoActionTwo />
     </>
   );
 }
