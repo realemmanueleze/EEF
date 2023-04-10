@@ -13,7 +13,7 @@ const About = () => {
               radiusRounded=""
               subtitle="Emmanuel Eze Foundation"
               title="Our Vision"
-              description="Empowering one million disadvantaged children by 2030 with cutting-edge tech skills for tomorrow's workplace."
+              description="Empowering one million disadvantaged children by 2030 with </br>cutting-edge tech skills for tomorrow's workplace."
             />
           </div>
         </div>

@@ -1,6 +1,7 @@
 import React from "react";
 import ServiceOne from "@/elements/service/ServiceOne";
 import SectionTitle from "@/components/common/sectionTitle/SectionTitle";
+import { Programs } from "../common/programs";
 
 const index = () => {
   return (
@@ -12,12 +13,12 @@ const index = () => {
               textAlign="text-center"
               radiusRounded=""
               subtitle="What we can do for you"
-              title="Services provide for you."
-              description="There are many variations of passages of Lorem Ipsum available, <br /> but the majority have suffered alteration."
+              title="Our Tech BootCamps."
+              description="All bootcamps are free and open to children and teens aged 8-17,</br> and each boot camp lasts for 12 weeks."
             />
           </div>
         </div>
-        <ServiceOne
+        <Programs
           serviceStyle="service__style--1 bg-color-blackest radius mt--20 rbt-border"
           textAlign="text-start"
         />
