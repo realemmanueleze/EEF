@@ -1,6 +1,7 @@
 import React from "react";
 import { FiFacebook, FiTwitter, FiInstagram, FiLinkedin } from "react-icons/fi";
 import Link from "next/link";
+import { socials } from "@/data";
 
 const Copyright = () => {
   return (
@@ -17,7 +18,7 @@ const Copyright = () => {
                   <a href="#">Terms And Condition</a>
                 </li>
                 <li>
-                  <a href="/contact">Contact Us</a>
+                  <Link href="/contact">Contact Us</Link>
                 </li>
               </ul>
             </div>
@@ -26,24 +27,24 @@ const Copyright = () => {
             <div className="copyright-center text-center">
               <ul className="social-icon social-default color-lessdark justify-content-center">
                 <li>
-                  <Link href="facebook.com">
+                  <a href={socials.facebook} target="_blank">
                     <FiFacebook />
-                  </Link>
+                  </a>
                 </li>
                 <li>
-                  <Link href="twitter.com">
+                  <a href={socials.twitter} target="_blank">
                     <FiTwitter />
-                  </Link>
+                  </a>
                 </li>
                 <li>
-                  <Link href="instagram.com">
+                  <a href={socials.instagram} target="_blank">
                     <FiInstagram />
-                  </Link>
+                  </a>
                 </li>
                 <li>
-                  <Link href="linkdin.com">
+                  <a href={socials.linkedin} target="_blank">
                     <FiLinkedin />
-                  </Link>
+                  </a>
                 </li>
               </ul>
             </div>
@@ -51,7 +52,8 @@ const Copyright = () => {
           <div className="col-lg-4 col-md-12 col-sm-12 col-12 mt_md--20 mt_sm--20">
             <div className="copyright-right text-center text-lg-right">
               <p className="copyright-text">
-                Copyright All rights reserved © {new Date().getFullYear()} EEF Inc
+                Copyright All rights reserved © {new Date().getFullYear()} EEF
+                Inc
               </p>
             </div>
           </div>

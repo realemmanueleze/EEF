@@ -27,7 +27,10 @@ export default function Home() {
       <CalltoActionEight />
       <FrequentlyAskedQuestions />
       <Separator />
-      <Team column="col-lg-3 col-md-6 col-12" teamStyle="team-style-default style-two"/>
+      <Team
+        column="col-lg-3 col-md-6 col-12"
+        teamStyle="team-style-default style-two"
+      />
     </>
   );
 }
