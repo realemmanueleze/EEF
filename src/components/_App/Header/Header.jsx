@@ -6,7 +6,7 @@ import Darkmode from "./Darkmode";
 import useStickyHeader from "./useStickyHeader";
 import Logo from "@/components/common/logo/Logo";
 
-const HeaderOne = ({ btnStyle, HeaderSTyle }) => {
+const Header = ({ btnStyle, HeaderSTyle }) => {
   const [ofcanvasShow, setOffcanvasShow] = useState(false);
   const onCanvasHandler = () => {
     setOffcanvasShow((prev) => !prev);
@@ -40,9 +40,9 @@ const HeaderOne = ({ btnStyle, HeaderSTyle }) => {
                   <a
                     className={`btn-default ${btnStyle}`}
                     target="_blank"
-                    href="https://themeforest.net/checkout/from_item/33571911?license=regular"
+                    href="https://donorbox.org/food-and-education-for-impoverished-children"
                   >
-                    BUY NOW
+                    Donate
                   </a>
                 </div>
                 <div className="mobile-menu-bar ml--5 d-block d-lg-none">
@@ -65,4 +65,4 @@ const HeaderOne = ({ btnStyle, HeaderSTyle }) => {
     </>
   );
 };
-export default HeaderOne;
+export default Header;
