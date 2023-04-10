@@ -1,9 +1,15 @@
 import React from "react";
 import AccordionOne from "../common/accordion/AccordionOne";
+import SectionTitleTwo from "../common/sectionTitle/SectionTitleTwo";
 
 const FrequentlyAskedQuestions = () => {
   return (
     <div className="rn-company-mission-are rn-section-gap">
+      <SectionTitleTwo
+        textAlign="text-center"
+        radiusRounded=""
+        title="What About Our Companies."
+      />
       <div className="container">
         <div className="row row--30">
           <div className="col-lg-5">

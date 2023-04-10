@@ -6,6 +6,7 @@ import { About } from "@/components/About";
 import { BootCamps } from "@/components/BootCamps";
 import CalltoActionEight from "@/elements/calltoaction/CalltoActionEight";
 import { FrequentlyAskedQuestions } from "@/components/FrequentlyAskedQuestions";
+import { Team } from "@/components/Team";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -26,6 +27,7 @@ export default function Home() {
       <CalltoActionEight />
       <FrequentlyAskedQuestions />
       <Separator />
+      <Team column="col-lg-3 col-md-6 col-12" teamStyle="team-style-default style-two"/>
     </>
   );
 }
