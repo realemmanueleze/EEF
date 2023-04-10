@@ -11,9 +11,9 @@ const About = () => {
             <SectionTitle
               textAlign="text-center"
               radiusRounded=""
-              subtitle="Companies About."
-              title="What About Our Companies."
-              description="We help our clients succeed by creating brand identities, <br /> digital experiences, and print materials."
+              subtitle="Emmanuel Eze Foundation"
+              title="Our Vision"
+              description="Empowering one million disadvantaged children by 2030 with cutting-edge tech skills for tomorrow's workplace."
             />
           </div>
         </div>
