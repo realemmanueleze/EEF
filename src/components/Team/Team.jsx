@@ -1,94 +1,62 @@
 import React from "react";
-import { FiFacebook, FiTwitter, FiInstagram, FiLinkedin } from "react-icons/fi";
+import { FiFacebook, FiTwitter, FiLinkedin } from "react-icons/fi";
 import ScrollAnimation from "react-animate-on-scroll";
 import SectionTitle from "../common/sectionTitle/SectionTitle";
 
 const teamData = [
   {
-    image: "team-01",
-    name: "Sr Janen Sara",
-    designation: "Sr Product Designer",
-    location: "CO Miego, AD, USA",
-    description:
-      "Yes, I am a product designer. I have a passion for product design.",
+    image: "Emmanuel-Eze.jpeg",
+    name: "Emmanuel Eze",
+    designation: "Founder and President",
+    location: "Lagos",
+    description: "",
     socialNetwork: [
-      {
-        icon: <FiFacebook />,
-        url: "#",
-      },
-      {
-        icon: <FiTwitter />,
-        url: "#",
-      },
-      {
-        icon: <FiInstagram />,
-        url: "#",
-      },
-    ],
-  },
-  {
-    image: "team-02",
-    name: "Afsana Nila",
-    designation: "App Developer",
-    location: "Bangladesh",
-    description:
-      "Yes, I am a product designer. I have a passion for product design.",
-    socialNetwork: [
-      {
-        icon: <FiFacebook />,
-        url: "#",
-      },
-      {
-        icon: <FiTwitter />,
-        url: "#",
-      },
       {
         icon: <FiLinkedin />,
-        url: "#",
+        url: "https://www.linkedin.com/in/emmanuel-eze-488512155/",
+      },
+      {
+        icon: <FiTwitter />,
+        url: "https://twitter.com/realemmanueleze",
       },
     ],
   },
   {
-    image: "team-03",
-    name: "Afanan Sifa",
-    designation: "Accounts Manager",
-    location: "Poland",
-    description:
-      "Yes, I am a product designer. I have a passion for product design.",
+    image: "Orisha-Brown.jpeg",
+    name: "Orisha Brown",
+    designation: "Treasurer",
+    location: "Maryland, USA",
+    description: "",
     socialNetwork: [
       {
-        icon: <FiFacebook />,
-        url: "#",
-      },
-      {
-        icon: <FiTwitter />,
-        url: "#",
-      },
-      {
-        icon: <FiInstagram />,
-        url: "#",
+        icon: <FiLinkedin />,
+        url: "https://www.linkedin.com/in/orishabrown",
       },
     ],
   },
   {
-    image: "team-03",
-    name: "Afanan Sifa",
-    designation: "Accounts Manager",
-    location: "Poland",
-    description:
-      "Yes, I am a product designer. I have a passion for product design.",
+    image: "Heather-Wallick.jpg",
+    name: "Heather Wallick",
+    designation: "Secretary",
+    location: "Pennsylvania, USA",
+    description: "",
+    socialNetwork: [
+      {
+        icon: <FiLinkedin />,
+        url: "https://www.linkedin.com/in/heather-wallick-5256ab8a/",
+      },
+    ],
+  },
+  {
+    image: "Nancy-Griffin.webp",
+    name: "Nancy Griffin",
+    designation: "VP Skill Training",
+    location: "Maryland, USA",
+    description: "",
     socialNetwork: [
       {
         icon: <FiFacebook />,
-        url: "#",
-      },
-      {
-        icon: <FiTwitter />,
-        url: "#",
-      },
-      {
-        icon: <FiInstagram />,
-        url: "#",
+        url: "https://web.facebook.com/nancy.griffin.710",
       },
     ],
   },
@@ -100,9 +68,9 @@ const Team = ({ column, teamStyle }) => {
       <SectionTitle
         textAlign="text-center"
         radiusRounded=""
-        subtitle="Leadership Team."
-        title="What About Our Companies."
-        description="We help our clients succeed by creating brand identities, <br /> digital experiences, and print materials."
+        subtitle="Meet the Passionate Team behind Emmanuel Eze Foundation"
+        title="Our Leadership Team"
+        description="A group of volunteers committed to empowering the </br> next generation through education and technology."
       />
       <div className="row row--15">
         {teamData.map((data, index) => (
@@ -116,7 +84,7 @@ const Team = ({ column, teamStyle }) => {
                 <div className="inner">
                   <figure className="thumbnail">
                     <img
-                      src={`./images/team/${data.image}.jpg`}
+                      src={`./images/team/${data.image}`}
                       alt="Corporate React Template"
                     />
                   </figure>
