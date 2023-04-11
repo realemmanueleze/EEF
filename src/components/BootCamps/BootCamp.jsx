@@ -13,7 +13,7 @@ const index = () => {
               textAlign="text-center"
               radiusRounded=""
               subtitle="What we can do for you"
-              title="Our Tech BootCamps."
+              title="Our Tech BootCamps"
               description="All bootcamps are free and open to children and teens aged 8-17,</br> and each boot camp lasts for 12 weeks."
             />
           </div>
