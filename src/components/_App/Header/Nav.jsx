@@ -17,7 +17,9 @@ const Nav = () => {
       </li>
 
       <li>
-        <Link href="#">Blog</Link>
+        <a target="_blank" href="https://medium.com/@emmanuelezefoundation">
+          Blog
+        </a>
       </li>
 
       <li>
