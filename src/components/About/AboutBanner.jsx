@@ -6,7 +6,7 @@ const AboutBanner = () => {
       className="slider-area slider-style-1 height-850 bg_image"
       data-black-overlay="7"
       style={{
-        backgroundImage: `url(/images/bg/bg-image-12.jpg)`,
+        backgroundImage: `url(./images/banner/boy-2.jpeg)`,
       }}
     >
       <div className="container">

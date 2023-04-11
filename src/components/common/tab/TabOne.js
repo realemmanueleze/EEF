@@ -11,8 +11,8 @@ const TabOne = () => {
               <div className="col-lg-5">
                 <img
                   className="radius-small"
-                  src="./images/tab/tabs-01.jpg"
-                  alt="Corporate React Template"
+                  src="./images/banner/boy-1.jpeg"
+                  alt="Child with toy airplane"
                 />
               </div>
               <div className="col-lg-7 mt_md--40 mt_sm--40">

@@ -7,7 +7,7 @@ const HeaderTop = () => {
     <div
       className={`header-top-news bg_image ${deactive}`}
       style={{
-        backgroundImage: `url(/images/bg/top-banner.png)`,
+        backgroundColor: "purple",
       }}
     >
       <div className="wrapper">
@@ -18,8 +18,7 @@ const HeaderTop = () => {
                 <div className="content">
                   <span className="rn-badge">$2,500 Scholarship</span>
                   <span className="news-text">
-                    Apply for our Tech BootCamp{" "}
-                    <strong>-Age: 8-17.</strong>
+                    Apply for our Tech BootCamp <strong>-Age: 8-17.</strong>
                   </span>
                 </div>
                 <div className="right-button">

@@ -16,7 +16,7 @@ const FrequentlyAskedQuestions = () => {
             <div className="thumbnail">
               <img
                 className="w-100"
-                src="./images/about/about-1.png"
+                src="./images/banner/smiley.png"
                 alt="About Images"
               />
             </div>

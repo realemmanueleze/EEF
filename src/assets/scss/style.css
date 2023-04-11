@@ -9,21 +9,21 @@
 /*-- Variables --*/
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap");
 :root {
-  --color-primary: #007A35;
-  --color-primary-rgba: rgb(5, 157, 255);
-  --color-primary-alt: #00CC58;
-  --color-primary-light: #00CC58;
-  --color-primary-lightest: hsl(146, 100%, 40%);
-  --color-secondary: #F9C22E;
-  --color-tertiary: #F0544F;
-  --color-tertiary-alt: #F0544F;
-  --color-pink: #D81E5B;
-  --color-light-green: #36C6F0;
-  --color-primary-darker: #011827;
-  --color-tertiary-darker: #150b40;
-  --color-secondary-darker: #190301;
-  --color-light-green-darker: #001f27;
-  --color-pink-darker: #2f011d;
+  --color-primary: #510886;
+  --color-primary-rgba: rgb(75, 0, 130);
+  --color-primary-alt: #520e83fa;
+  --color-primary-light: #7C4DFF;
+  --color-primary-lightest: #d0abea;
+  --color-secondary: #61B329;
+  --color-tertiary: #E9B70E;
+  --color-tertiary-alt: rgb(235, 208, 88);
+  --color-pink: #c0348a;
+  --color-light-green: #A0D46C;
+  --color-primary-darker: #180328;
+  --color-tertiary-darker: #b58c02;
+  --color-secondary-darker: #376f12;
+  --color-light-green-darker: #4c9b17;
+  --color-pink-darker: #870555;
   --color-heading: #ffffff;
   --color-body: #acacac;
   --color-dark: #060606;
