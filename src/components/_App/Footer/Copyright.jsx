@@ -12,10 +12,10 @@ const Copyright = () => {
             <div className="copyright-left">
               <ul className="ft-menu link-hover">
                 <li>
-                  <a href="#">Privacy Policy</a>
+                  <Link href="/privacy-policy">Privacy Policy</Link>
                 </li>
                 <li>
-                  <a href="#">Terms And Condition</a>
+                  <Link href="/terms-and-condition">Terms And Condition</Link>
                 </li>
                 <li>
                   <Link href="/contact">Contact Us</Link>

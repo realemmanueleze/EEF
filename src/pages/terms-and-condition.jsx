@@ -12,7 +12,7 @@ const TermsAndConditions = () => {
         />
       </Head>
 
-      <section>
+      <section className="container">
         <h1>Terms and Conditions</h1>
         <p>
           Welcome to the Emmanuel Eze Foundation website. By using our website,

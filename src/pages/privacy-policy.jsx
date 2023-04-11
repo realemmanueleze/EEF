@@ -12,7 +12,7 @@ const PrivacyPolicy = () => {
         />
       </Head>
 
-      <section>
+      <section className="container">
         <h1>Privacy Policy</h1>
         <p>
           The Emmanuel Eze Foundation is committed to protecting the privacy and
