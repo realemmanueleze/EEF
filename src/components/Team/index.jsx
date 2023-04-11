@@ -1,1 +1,2 @@
-export { default as Team } from "./Team";
+export { default as TeamOne } from "./TeamOne";
+export { default as TeamTwo } from "./TeamTwo";

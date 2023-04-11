@@ -5,7 +5,7 @@ const Nav = () => {
   return (
     <ul className="mainmenu">
       <li className="has-droupdown">
-        <Link href="#">Home</Link>
+        <Link href="/">Home</Link>
       </li>
 
       <li>

@@ -1,6 +1,5 @@
 import React from 'react';
 import Separator from "../../components/common/separator/Separator";
-import SEO from "../../components/common/SEO";
 import Layout from "../../components/common/Layout";
 import BreadcrumbOne from "../breadcrumb/BreadcrumbOne";
 import SectionTitle from "../../components/common/sectionTitle/SectionTitle";
