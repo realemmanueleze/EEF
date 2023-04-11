@@ -25,7 +25,7 @@ const HeaderTop = () => {
                   <a
                     className="btn-read-more"
                     target="_blank"
-                    href="https://themeforest.net/checkout/from_item/33571911?license=regular"
+                    href="https://goodhopetutoring.typeform.com/to/ru6KSgf4"
                   >
                     <span className="">
                       Apply Now <FiArrowRight />
