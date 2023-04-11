@@ -63,8 +63,8 @@ const ContactInfo = () => {
                   <div className="inner">
                     <h4 className="title">Our Location</h4>
                     <p>
-                      Shanna Drive <br />
-                      ,Accokeek Maryland, USA
+                      Shanna Drive, <br />
+                      Accokeek Maryland, USA
                     </p>
                   </div>
                 </div>
