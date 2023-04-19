@@ -54,7 +54,7 @@ const TabOne = () => {
                             lives but also contribute to the growth and
                             development of our economy. Our commitment to
                             excellence and equity drives us to provide free
-                            programs, like the online coding and design
+                            programs, like the online math, coding and design
                             bootcamps, to ensure that every child has equal
                             access to education and opportunities for a better
                             future.
