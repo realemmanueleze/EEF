@@ -7,13 +7,12 @@ const Contact = () => {
   return (
     <div className="container">
       <Breadcrumb
-        title="We Would Love To Hear From You <br /> Please Contact Us."
+        title="We Would Love To Hear From You <br /> Please Contact Us"
         rootUrl="/"
         parentUrl="Home"
         currentUrl="Contact"
       />
       <div className="main-content container">
-        {/* Start Contact Area  */}
         <div className="rwt-contact-area rn-section-gap">
           <div className="container">
             <div className="row">
@@ -22,7 +21,7 @@ const Contact = () => {
                   textAlign="text-center"
                   radiusRounded=""
                   subtitle="Contact Form"
-                  title="Our Contact Address Here."
+                  title="Our Contact Information"
                   description=""
                 />
               </div>
