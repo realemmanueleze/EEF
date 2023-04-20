@@ -15,9 +15,10 @@ const Layout = ({ children }) => {
           name="description"
           content="The Emmanuel Eze Foundation empowers and transforms the lives of disadvantaged children and teens through quality education and skill acquisition training. Our free bootcamps prepare children for the demands of tomorrow's workplace."
         />
+        <meta property="og:image" content="/images/logo" />
         <meta
           name="keywords"
-          content="Emmanuel Eze Foundation, education, skill acquisition, disadvantaged children, bootcamps, coding, design, math, teens, workplace"
+          content="Emmanuel Eze Foundation, EEF Bootcamps, EEF math bootcamp, EEF coding bootcamp, EEF design bootcamp, EEF, education, skill acquisition, disadvantaged children, bootcamps, coding, design, math, teens, workplace"
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/logo.png" />
