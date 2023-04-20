@@ -21,7 +21,7 @@ const Layout = ({ children }) => {
           content="Emmanuel Eze Foundation, EEF Bootcamps, EEF math bootcamp, EEF coding bootcamp, EEF design bootcamp, EEF, education, skill acquisition, disadvantaged children, bootcamps, coding, design, math, teens, workplace"
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/logo.png" />
+        <link rel="icon" href="/images/logo/logo.png" />
       </Head>
       <main className="page-wrapper">
         <HeaderTop />
