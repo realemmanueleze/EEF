@@ -1,5 +1,6 @@
 import React from "react";
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
+import importantLinks from "@/data/importantLinks";
 
 const TabOne = () => {
   return (
@@ -95,9 +96,14 @@ const TabOne = () => {
                         <div className="inner">
                           <p>
                             Our approach is to create a robust and safe online
-                            (discord) community that offers free resources, such
-                            as e-books and video materials to as many children
-                            as possible. These resources will allow children to
+                            <span>
+                              <a href={importantLinks.discord} target="_blank">
+                                (discord)
+                              </a>
+                            </span>{" "}
+                            community that offers free resources, such as
+                            e-books and video materials to as many children as
+                            possible. These resources will allow children to
                             engage in independent studies and develop their
                             skills, preparing them for our math, coding and
                             design bootcamps. As we raise funds, we will enroll
