@@ -1,6 +1,7 @@
 import React from "react";
 import Link from "next/link";
 import { FiArrowRight, FiCheck } from "react-icons/fi";
+import importantLinks from "@/data/importantLinks";
 
 const Hero = () => {
   return (
@@ -41,7 +42,7 @@ const Hero = () => {
                   <a
                     className="btn-default btn-medium round btn-icon"
                     target="_blank"
-                    href="https://goodhopetutoring.typeform.com/to/ru6KSgf4"
+                    href={importantLinks.apply}
                   >
                     Apply{" "}
                     <i className="icon">
@@ -62,7 +63,10 @@ const Hero = () => {
             </div>
             <div className="col-lg-5 col-xl-6 order-1 order-lg-2">
               <div className="frame-image">
-                <img src="./images/banner/boys-4.jpeg" alt="Children learning how to code" />
+                <img
+                  src="./images/banner/boys-4.jpeg"
+                  alt="Children learning how to code"
+                />
               </div>
             </div>
           </div>
@@ -92,7 +96,7 @@ const Hero = () => {
                 <a
                   className="btn-read-more"
                   target="_blank"
-                  href="https://goodhopetutoring.typeform.com/to/ru6KSgf4"
+                  href={importantLinks.apply}
                 >
                   <span>Apply</span>
                 </a>

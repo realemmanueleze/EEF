@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { FiX, FiArrowRight } from "react-icons/fi";
+import importantLinks from "@/data/importantLinks";
 
 const HeaderTop = () => {
   const [deactive, setClass] = useState("");
@@ -25,7 +26,7 @@ const HeaderTop = () => {
                   <a
                     className="btn-read-more"
                     target="_blank"
-                    href="https://goodhopetutoring.typeform.com/to/ru6KSgf4"
+                    href={importantLinks.apply}
                   >
                     <span className="">
                       Apply Now <FiArrowRight />

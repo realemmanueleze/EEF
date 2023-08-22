@@ -46,7 +46,7 @@ const TabOne = () => {
                             children and teens, especially those who are
                             disadvantaged, by providing quality education and
                             skill acquisition training that will prepare them
-                            for the demands of tomorrow's workplace.
+                            for the demands of the future.
                           </p>
                           <p>
                             We aim to break the cycle of poverty by equipping
@@ -71,18 +71,20 @@ const TabOne = () => {
                             and design bootcamps to 500 children and teens, with
                             50 cohorts of 10 students each and one instructor
                             per cohort. Each bootcamp will be for 12 weeks and
-                            meet 3 hours per week. Our instructors will be paid
-                            at an hourly rate between $40 to $50 per hour. We
-                            also need to account for the costs of Zoom,
-                            advertising and administrative tasks.
+                            meet 3 hours per week. We will rely heavily on
+                            volunteers to make this happen. When we can't get
+                            enough volunteers we will hire instructors. Our
+                            instructors will be paid at an hourly rate between
+                            $40 to $50 per hour. We also need to account for the
+                            costs of Zoom, advertising and administrative tasks.
                           </p>
 
                           <p>
                             To achieve this goal, we aim to raise $125,000 in
                             funding this year, which will enable us to provide
                             quality education and skill acquisition training to
-                            disadvantaged children and teens and help prepare
-                            them for the demands of tomorrow's workplace.
+                            children and teens and help prepare them for for a
+                            brighter future.
                           </p>
                         </div>
                       </div>
@@ -93,7 +95,7 @@ const TabOne = () => {
                         <div className="inner">
                           <p>
                             Our approach is to create a robust and safe online
-                            (slack) community that offers free resources, such
+                            (discord) community that offers free resources, such
                             as e-books and video materials to as many children
                             as possible. These resources will allow children to
                             engage in independent studies and develop their

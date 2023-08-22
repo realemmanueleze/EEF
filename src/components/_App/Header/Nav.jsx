@@ -1,5 +1,6 @@
 import React from "react";
 import Link from "next/link";
+import importantLinks from "@/data/importantLinks";
 
 const Nav = () => {
   return (
@@ -24,7 +25,7 @@ const Nav = () => {
 
       <li>
         <a
-          href="https://docs.google.com/forms/d/e/1FAIpQLScoJmBGZrkBjdcX9U3EIhN1H2GgJAx1aDmaw1tco6K9-YkwiQ/viewform"
+          href={importantLinks.volunteer}
           target="_blank"
         >
           Volunteer

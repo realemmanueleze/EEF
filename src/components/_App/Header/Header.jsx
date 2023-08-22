@@ -5,6 +5,7 @@ import MobileMenu from "./MobileMenu";
 import Darkmode from "./Darkmode";
 import useStickyHeader from "./useStickyHeader";
 import Logo from "@/components/common/logo/Logo";
+import importantLinks from "@/data/importantLinks";
 
 const Header = ({ btnStyle, HeaderSTyle }) => {
   const [ofcanvasShow, setOffcanvasShow] = useState(false);
@@ -40,7 +41,7 @@ const Header = ({ btnStyle, HeaderSTyle }) => {
                   <a
                     className={`btn-default ${btnStyle}`}
                     target="_blank"
-                    href="https://donorbox.org/food-and-education-for-impoverished-children"
+                    href={importantLinks.donate}
                   >
                     Donate
                   </a>
