@@ -170,7 +170,6 @@ pre,
 samp {
   font-size: var(--font-size-b3);
   -webkit-hyphens: none;
-  -ms-hyphens: none;
   hyphens: none;
   color: var(--color-primary);
 }
@@ -411,7 +410,6 @@ em {
 blockquote,
 q {
   -webkit-hyphens: none;
-  -ms-hyphens: none;
   hyphens: none;
   quotes: none;
 }
@@ -576,45 +574,45 @@ a {
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   h1,
-.h1 {
+  .h1 {
     font-size: 38px;
   }
   h2,
-.h2 {
+  .h2 {
     font-size: 32px;
   }
   h3,
-.h3 {
+  .h3 {
     font-size: 28px;
   }
   h4,
-.h4 {
+  .h4 {
     font-size: 24px;
   }
   h5,
-.h5 {
+  .h5 {
     font-size: 18px;
   }
 }
 @media only screen and (max-width: 767px) {
   h1,
-.h1 {
+  .h1 {
     font-size: 34px;
   }
   h2,
-.h2 {
+  .h2 {
     font-size: 28px;
   }
   h3,
-.h3 {
+  .h3 {
     font-size: 24px;
   }
   h4,
-.h4 {
+  .h4 {
     font-size: 20px;
   }
   h5,
-.h5 {
+  .h5 {
     font-size: 16px;
   }
 }
@@ -1022,18 +1020,6 @@ All Extend Here
   transform: scale(1.1);
 }
 
-@-webkit-keyframes customOne {
-  from {
-    transform: scale(1);
-  }
-  50% {
-    transform: scale(0.9);
-  }
-  to {
-    transform: scale(1);
-  }
-}
-
 @keyframes customOne {
   from {
     transform: scale(1);
@@ -1043,17 +1029,6 @@ All Extend Here
   }
   to {
     transform: scale(1);
-  }
-}
-@-webkit-keyframes customTwo {
-  0% {
-    transform: translate(0px, 0px);
-  }
-  50% {
-    transform: translate(100px, 0px);
-  }
-  100% {
-    transform: translate(50px, 50px);
   }
 }
 @keyframes customTwo {
@@ -1068,21 +1043,12 @@ All Extend Here
   }
 }
 .customOne {
-  -webkit-animation: customOne 2s infinite;
-          animation: customOne 2s infinite;
+  animation: customOne 2s infinite;
 }
 
 /* ------------------------
     Custom Animation 01 
 ----------------------------*/
-@-webkit-keyframes headerSlideDown {
-  0% {
-    margin-top: -100px;
-  }
-  to {
-    margin-top: 0;
-  }
-}
 @keyframes headerSlideDown {
   0% {
     margin-top: -100px;
@@ -1094,16 +1060,6 @@ All Extend Here
 /*------------------------
 	slidefadeinup
 --------------------------*/
-@-webkit-keyframes slideFadeInUp {
-  from {
-    opacity: 0;
-    transform: translate3d(0, 20%, 0);
-  }
-  to {
-    opacity: 1;
-    transform: none;
-  }
-}
 @keyframes slideFadeInUp {
   from {
     opacity: 0;
@@ -1115,19 +1071,12 @@ All Extend Here
   }
 }
 .slideFadeInUp {
-  -webkit-animation-name: slideFadeInUp;
   animation-name: slideFadeInUp;
 }
 
 /* -----------------------------------
     Custom Animation For All Page
 ---------------------------------------*/
-@-webkit-keyframes moveVertical {
-  to {
-    opacity: 1;
-    -webkit-transform: translateY(0);
-  }
-}
 @keyframes moveVertical {
   to {
     opacity: 1;
@@ -1137,19 +1086,6 @@ All Extend Here
 /*--------------------------------
 Scroll Down Button Animation  
 ----------------------------------*/
-@-webkit-keyframes scrollDown {
-  0% {
-    opacity: 0;
-  }
-  10% {
-    transform: translateY(0);
-    opacity: 1;
-  }
-  100% {
-    transform: translateY(10px);
-    opacity: 0;
-  }
-}
 @keyframes scrollDown {
   0% {
     opacity: 0;
@@ -1922,13 +1858,13 @@ textarea:-ms-input-placeholder {
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .pb--165,
-.pb--85 {
+  .pb--85 {
     padding-bottom: 80px !important;
   }
 }
 @media only screen and (max-width: 767px) {
   .pb--165,
-.pb--85 {
+  .pb--85 {
     padding-bottom: 60px !important;
   }
 }
@@ -1960,17 +1896,17 @@ textarea:-ms-input-placeholder {
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .pb--165,
-.pb--120,
-.pb--85,
-.pb--165 {
+  .pb--120,
+  .pb--85,
+  .pb--165 {
     padding-bottom: 80px !important;
   }
 }
 @media only screen and (max-width: 767px) {
   .pb--165,
-.pb--120,
-.pb--85,
-.pb--165 {
+  .pb--120,
+  .pb--85,
+  .pb--165 {
     padding-bottom: 60px !important;
   }
 }
@@ -6815,11 +6751,6 @@ input[type=text]::-moz-placeholder, input[type=password]::-moz-placeholder, inpu
   /* Firefox */
   opacity: 1;
 }
-input[type=text]:-ms-input-placeholder, input[type=password]:-ms-input-placeholder, input[type=email]:-ms-input-placeholder, input[type=number]:-ms-input-placeholder, input[type=tel]:-ms-input-placeholder, textarea:-ms-input-placeholder {
-  color: var(--body-color);
-  /* Firefox */
-  opacity: 1;
-}
 input[type=text]::placeholder,
 input[type=password]::placeholder,
 input[type=email]::placeholder,
@@ -6869,11 +6800,6 @@ textarea.input-active {
   /* -- Placeholder -- */
 }
 input[type=text].p-holder__active::-moz-placeholder, .input-active input[type=text]::-moz-placeholder, input[type=text].input-active::-moz-placeholder, input[type=password].p-holder__active::-moz-placeholder, .input-active input[type=password]::-moz-placeholder, input[type=password].input-active::-moz-placeholder, input[type=email].p-holder__active::-moz-placeholder, .input-active input[type=email]::-moz-placeholder, input[type=email].input-active::-moz-placeholder, input[type=number].p-holder__active::-moz-placeholder, .input-active input[type=number]::-moz-placeholder, input[type=number].input-active::-moz-placeholder, input[type=tel].p-holder__active::-moz-placeholder, .input-active input[type=tel]::-moz-placeholder, input[type=tel].input-active::-moz-placeholder, textarea.p-holder__active::-moz-placeholder, textarea.input-active::-moz-placeholder {
-  color: var(--color-primary);
-  /* Firefox */
-  opacity: 1;
-}
-input[type=text].p-holder__active:-ms-input-placeholder, .input-active input[type=text]:-ms-input-placeholder, input[type=text].input-active:-ms-input-placeholder, input[type=password].p-holder__active:-ms-input-placeholder, .input-active input[type=password]:-ms-input-placeholder, input[type=password].input-active:-ms-input-placeholder, input[type=email].p-holder__active:-ms-input-placeholder, .input-active input[type=email]:-ms-input-placeholder, input[type=email].input-active:-ms-input-placeholder, input[type=number].p-holder__active:-ms-input-placeholder, .input-active input[type=number]:-ms-input-placeholder, input[type=number].input-active:-ms-input-placeholder, input[type=tel].p-holder__active:-ms-input-placeholder, .input-active input[type=tel]:-ms-input-placeholder, input[type=tel].input-active:-ms-input-placeholder, textarea.p-holder__active:-ms-input-placeholder, textarea.input-active:-ms-input-placeholder {
   color: var(--color-primary);
   /* Firefox */
   opacity: 1;
@@ -6952,11 +6878,6 @@ textarea.input-error {
   /* -- Placeholder -- */
 }
 input[type=text].p-holder__error::-moz-placeholder, .input-error input[type=text]::-moz-placeholder, input[type=text].input-error::-moz-placeholder, input[type=password].p-holder__error::-moz-placeholder, .input-error input[type=password]::-moz-placeholder, input[type=password].input-error::-moz-placeholder, input[type=email].p-holder__error::-moz-placeholder, .input-error input[type=email]::-moz-placeholder, input[type=email].input-error::-moz-placeholder, input[type=number].p-holder__error::-moz-placeholder, .input-error input[type=number]::-moz-placeholder, input[type=number].input-error::-moz-placeholder, input[type=tel].p-holder__error::-moz-placeholder, .input-error input[type=tel]::-moz-placeholder, input[type=tel].input-error::-moz-placeholder, textarea.p-holder__error::-moz-placeholder, textarea.input-error::-moz-placeholder {
-  color: #f4282d;
-  /* Firefox */
-  opacity: 1;
-}
-input[type=text].p-holder__error:-ms-input-placeholder, .input-error input[type=text]:-ms-input-placeholder, input[type=text].input-error:-ms-input-placeholder, input[type=password].p-holder__error:-ms-input-placeholder, .input-error input[type=password]:-ms-input-placeholder, input[type=password].input-error:-ms-input-placeholder, input[type=email].p-holder__error:-ms-input-placeholder, .input-error input[type=email]:-ms-input-placeholder, input[type=email].input-error:-ms-input-placeholder, input[type=number].p-holder__error:-ms-input-placeholder, .input-error input[type=number]:-ms-input-placeholder, input[type=number].input-error:-ms-input-placeholder, input[type=tel].p-holder__error:-ms-input-placeholder, .input-error input[type=tel]:-ms-input-placeholder, input[type=tel].input-error:-ms-input-placeholder, textarea.p-holder__error:-ms-input-placeholder, textarea.input-error:-ms-input-placeholder {
   color: #f4282d;
   /* Firefox */
   opacity: 1;
@@ -7316,7 +7237,7 @@ input[type=submit]:hover {
 }
 @media only screen and (max-width: 767px) {
   .header-default a.btn-default,
-.header-default button.btn-default {
+  .header-default button.btn-default {
     height: 33px;
     line-height: 30px;
     padding: 0 9px;
@@ -7325,7 +7246,7 @@ input[type=submit]:hover {
 }
 @media only screen and (max-width: 767px) {
   .header-default a.btn-default.btn-small,
-.header-default button.btn-default.btn-small {
+  .header-default button.btn-default.btn-small {
     height: 33px;
     line-height: 30px;
     padding: 0 9px;
@@ -7418,18 +7339,8 @@ input[type=submit]:hover {
   background-color: var(--color-dark) !important;
   width: 100%;
   height: 80px;
-  -webkit-animation: headerSticky 0.95s ease forwards;
-          animation: headerSticky 0.95s ease forwards;
+  animation: headerSticky 0.95s ease forwards;
   z-index: 9;
-}
-
-@-webkit-keyframes headerSticky {
-  0% {
-    transform: translateY(-100%);
-  }
-  100% {
-    transform: translateY(0);
-  }
 }
 
 @keyframes headerSticky {
@@ -7984,7 +7895,7 @@ button.btn-default.btn-medium {
 }
 @media only screen and (max-width: 767px) {
   a.btn-default.btn-medium,
-button.btn-default.btn-medium {
+  button.btn-default.btn-medium {
     padding: 0 30px;
   }
 }
@@ -7997,7 +7908,7 @@ button.btn-default.btn-large {
 }
 @media only screen and (max-width: 767px) {
   a.btn-default.btn-large,
-button.btn-default.btn-large {
+  button.btn-default.btn-large {
     padding: 0 30px;
   }
 }
@@ -8010,7 +7921,7 @@ button.btn-default.btn-extra-large {
 }
 @media only screen and (max-width: 767px) {
   a.btn-default.btn-extra-large,
-button.btn-default.btn-extra-large {
+  button.btn-default.btn-extra-large {
     padding: 0 44px;
   }
 }
@@ -8046,7 +7957,6 @@ button.btn-default.text-underline span::after {
   height: 1px;
   background-color: currentColor;
   transition: background-color 0.25s ease-in-out, width 0.36s cubic-bezier(0.51, 0.5, 0.07, 0.99);
-  -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   width: 0px;
   bottom: 3px;
@@ -8079,7 +7989,7 @@ button.btn-default.rounded-player {
 }
 @media only screen and (max-width: 767px) {
   a.btn-default.rounded-player,
-button.btn-default.rounded-player {
+  button.btn-default.rounded-player {
     width: 70px;
     height: 70px;
     line-height: 70px;
@@ -9172,7 +9082,7 @@ Timeline Area
   left: 0;
   width: 4px;
   height: 100%;
-  background: hsla(0deg, 0%, 76.9%, 0.22);
+  background: hsla(0, 0%, 76.9%, 0.22);
 }
 .timeline-line::before, .timeline-line::after {
   content: "";
@@ -9230,7 +9140,6 @@ Timeline Area
   background: radial-gradient(50% 50% at 50% 50%, rgba(242, 201, 76, 0) 40.62%, rgba(82, 56, 255, 0.5) 100%);
   transform: translate(-50%, -50%);
   will-change: transform;
-  -webkit-animation: radialanimation 2.2s cubic-bezier(0.26, 1.04, 0.54, 1) infinite;
   animation: radialanimation 2.2s cubic-bezier(0.26, 1.04, 0.54, 1) infinite;
 }
 
@@ -9311,17 +9220,6 @@ Timeline Area
 }
 .single-timeline .single-content .thumbnail img {
   border-radius: var(--radius);
-}
-
-@-webkit-keyframes radialanimation {
-  0% {
-    opacity: 1;
-    transform: translate3d(-50%, -50%, 0) scale(0.1);
-  }
-  to {
-    opacity: 0;
-    transform: translate3d(-50%, -50%, 0) scale(1);
-  }
 }
 @keyframes radialanimation {
   0% {
@@ -11972,12 +11870,9 @@ body.dark .dark-icon {
   }
 }
 .slider-style-4 .inner > * {
-  -webkit-animation-name: fadeOutUp;
-          animation-name: fadeOutUp;
-  -webkit-animation-fill-mode: both;
-          animation-fill-mode: both;
-  -webkit-animation-duration: 1s;
-          animation-duration: 1s;
+  animation-name: fadeOutUp;
+  animation-fill-mode: both;
+  animation-duration: 1s;
 }
 .slider-style-4 .inner .title {
   font-family: var(--font-primary);
@@ -12296,20 +12191,16 @@ body.dark .dark-icon {
 }
 
 .slider-style-4 .slick-active .inner > * {
-  -webkit-animation-name: fadeInUp;
-          animation-name: fadeInUp;
+  animation-name: fadeInUp;
 }
 .slider-style-4 .slick-active .inner .title {
-  -webkit-animation-delay: 0.5s;
-          animation-delay: 0.5s;
+  animation-delay: 0.5s;
 }
 .slider-style-4 .slick-active .inner .description {
-  -webkit-animation-delay: 1s;
-          animation-delay: 1s;
+  animation-delay: 1s;
 }
 .slider-style-4 .slick-active .inner .button-group {
-  -webkit-animation-delay: 1.2s;
-          animation-delay: 1.2s;
+  animation-delay: 1.2s;
 }
 
 /*-----------------------------
