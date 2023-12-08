@@ -2,7 +2,7 @@ import React from "react";
 
 const NonDiscriminationPolicy = () => {
   return (
-    <div className="policy-container">
+    <div className="container">
       <h1>Emmanuel Eze Foundation Non-Discrimination Policy</h1>
       <p>
         <strong>Effective 06/06/2020</strong>
