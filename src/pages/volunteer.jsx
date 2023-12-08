@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import importantLinks from "@/data/importantLinks";
 
-function volunteer() {
+function Volunteer() {
   const navigate = useNavigate();
   useEffect(() => {
     navigate(importantLinks.volunteer);
@@ -11,4 +11,4 @@ function volunteer() {
   return null;
 }
 
-export default volunteer;
+export default Volunteer;
