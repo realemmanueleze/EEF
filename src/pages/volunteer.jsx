@@ -1,12 +1,13 @@
 import React, { useEffect } from "react";
-import { useNavigate } from "react-router-dom";
+import { useRouter } from "next/router";
 import importantLinks from "@/data/importantLinks";
 
 function Volunteer() {
-  const navigate = useNavigate();
+  const router = useRouter();
+
   useEffect(() => {
-    navigate(importantLinks.volunteer);
-  }, []);
+    router.push(importantLinks.volunteer);
+  }, [router]);
 
   return null;
 }
