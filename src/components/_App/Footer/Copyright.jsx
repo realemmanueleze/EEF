@@ -18,6 +18,11 @@ const Copyright = () => {
                   <Link href="/terms-and-condition">Terms And Condition</Link>
                 </li>
                 <li>
+                  <Link href="/non-discrimination-policy">
+                    Non-Discrimination Policy
+                  </Link>
+                </li>
+                <li>
                   <Link href="/contact">Contact Us</Link>
                 </li>
               </ul>
