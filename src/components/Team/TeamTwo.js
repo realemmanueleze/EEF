@@ -1,7 +1,7 @@
-import React from "react";
-import ScrollAnimation from "react-animate-on-scroll";
-import { teamData } from "@/data";
-import SectionTitle from "../common/sectionTitle/SectionTitle";
+import React from 'react';
+import { AnimationOnScroll } from 'react-animation-on-scroll';
+import { teamData } from '@/data';
+import SectionTitle from '../common/sectionTitle/SectionTitle';
 
 const TeamTwo = ({ column, teamStyle }) => {
   return (
@@ -16,7 +16,7 @@ const TeamTwo = ({ column, teamStyle }) => {
       <div className="row row--30">
         {teamData.map((data, index) => (
           <div className={`${column}`} key={index}>
-            <ScrollAnimation
+            <AnimationOnScroll
               animateIn="fadeInUp"
               animateOut="fadeInOut"
               animateOnce={true}
@@ -37,7 +37,7 @@ const TeamTwo = ({ column, teamStyle }) => {
                   </figcaption>
                 </div>
               </div>
-            </ScrollAnimation>
+            </AnimationOnScroll>
           </div>
         ))}
       </div>

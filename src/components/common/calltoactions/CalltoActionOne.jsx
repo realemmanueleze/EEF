@@ -1,9 +1,10 @@
-import React from "react";
+import React from 'react';
+import importantLinks from '@/data/importantLinks';
 
 const callToActionData = {
-  title: "Ready to join any of our bootcamps?",
-  subtitle: "Journey to your best future",
-  btnText: "Apply Now",
+  title: 'Ready to join any of our bootcamps?',
+  subtitle: 'Journey to your best future',
+  btnText: 'Apply Now',
 };
 
 const CalltoActionOne = () => {
@@ -20,7 +21,9 @@ const CalltoActionOne = () => {
             <div className="inner">
               <div className="content text-start">
                 <h2 className="title">{callToActionData.title}</h2>
-                <h6 className="subtitle">{callToActionData.subtitle}</h6>
+                <h6 className="subtitle">
+                  {callToActionData.subtitle}
+                </h6>
               </div>
             </div>
           </div>
@@ -28,7 +31,7 @@ const CalltoActionOne = () => {
             <div className="call-to-btn text-start text-lg-right">
               <a
                 className="btn-default"
-                href="https://goodhopetutoring.typeform.com/to/ru6KSgf4"
+                href={importantLinks.applyNigeria}
                 target="_blank"
               >
                 {callToActionData.btnText}

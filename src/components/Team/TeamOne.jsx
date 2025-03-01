@@ -1,7 +1,7 @@
-import React from "react";
-import ScrollAnimation from "react-animate-on-scroll";
-import SectionTitle from "../common/sectionTitle/SectionTitle";
-import { teamData } from "@/data";
+import React from 'react';
+import { AnimationOnScroll } from 'react-animation-on-scroll';
+import SectionTitle from '../common/sectionTitle/SectionTitle';
+import { teamData } from '@/data';
 
 const TeamOne = ({ column, teamStyle }) => {
   return (
@@ -16,7 +16,7 @@ const TeamOne = ({ column, teamStyle }) => {
       <div className="row row--15">
         {teamData.map((data, index) => (
           <div className={`${column}`} key={index}>
-            <ScrollAnimation
+            <AnimationOnScroll
               animateIn="fadeInUp"
               animateOut="fadeInOut"
               animateOnce={true}
@@ -39,7 +39,9 @@ const TeamOne = ({ column, teamStyle }) => {
                         src="./images/team/location.svg"
                         alt="Corporate React Template"
                       />
-                      <span className="location">{data.location}</span>
+                      <span className="location">
+                        {data.location}
+                      </span>
                     </span>
                     <p className="description">{data.description}</p>
 
@@ -53,7 +55,7 @@ const TeamOne = ({ column, teamStyle }) => {
                   </figcaption>
                 </div>
               </div>
-            </ScrollAnimation>
+            </AnimationOnScroll>
           </div>
         ))}
       </div>

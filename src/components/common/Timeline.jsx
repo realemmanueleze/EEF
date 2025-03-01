@@ -1,26 +1,26 @@
-import React from "react";
-import ScrollAnimation from "react-animate-on-scroll";
+import React from 'react';
+import { AnimationOnScroll } from 'react-animation-on-scroll';
 
 const TimelineData = [
   {
-    id: "1",
-    title: "Integrity",
-    description: "Honesty, ethics, transparency, highest standards.",
+    id: '1',
+    title: 'Integrity',
+    description: 'Honesty, ethics, transparency, highest standards.',
   },
   {
-    id: "2",
-    title: "Humility",
-    description: "Openness, learning, respect, diverse perspectives.",
+    id: '2',
+    title: 'Humility',
+    description: 'Openness, learning, respect, diverse perspectives.',
   },
   {
-    id: "3",
-    title: "Self-discipline",
-    description: "Hard work, focus, commitment, excellence.",
+    id: '3',
+    title: 'Self-discipline',
+    description: 'Hard work, focus, commitment, excellence.',
   },
   {
-    id: "4",
-    title: "Sacrifice",
-    description: "Personal sacrifice, impact, time, resources.",
+    id: '4',
+    title: 'Sacrifice',
+    description: 'Personal sacrifice, impact, time, resources.',
   },
 ];
 
@@ -35,13 +35,13 @@ const Timeline = ({ classVar }) => {
             key={index}
           >
             <div className="rn-timeline">
-              <ScrollAnimation
+              <AnimationOnScroll
                 animateIn="fadeInUp"
                 animateOut="fadeInOut"
                 animateOnce={true}
               >
                 <h6 className="title">{data.title}</h6>
-              </ScrollAnimation>
+              </AnimationOnScroll>
               <div className="progress-line">
                 <div className="line-inner"></div>
               </div>
@@ -50,13 +50,13 @@ const Timeline = ({ classVar }) => {
                   <div className="dot-inner"></div>
                 </div>
               </div>
-              <ScrollAnimation
+              <AnimationOnScroll
                 animateIn="fadeInUp"
                 animateOut="fadeInOut"
                 animateOnce={true}
               >
                 <p className="description">{data.description}</p>
-              </ScrollAnimation>
+              </AnimationOnScroll>
             </div>
           </div>
         ))}

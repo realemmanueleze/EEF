@@ -1,6 +1,6 @@
-import React from "react";
-import SectionTitle from "@/components/common/sectionTitle/SectionTitle";
-import { Programs } from "../common/programs";
+import React from 'react';
+import SectionTitle from '@/components/common/sectionTitle/SectionTitle';
+import { Programs } from '../common/programs';
 
 const index = () => {
   return (
@@ -13,7 +13,7 @@ const index = () => {
               radiusRounded=""
               subtitle="What we can do for you"
               title="Our Tech BootCamps"
-              description="All bootcamps are free and open to children and teens aged 8-17,</br> and each boot camp lasts for 12 weeks."
+              description="All bootcamps are free and open to children and teens aged 8-19,</br> and each boot camp lasts for 12 weeks."
             />
           </div>
         </div>
