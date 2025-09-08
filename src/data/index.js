@@ -1,2 +1,2 @@
-export { socials } from "./contact";
-export { teamData } from "./team";
+export { socials } from './contact';
+export { teamData } from './team';
