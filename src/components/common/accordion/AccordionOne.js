@@ -1,5 +1,5 @@
-import React from "react";
-import { Accordion, Card, Button } from "react-bootstrap";
+import React from 'react';
+import { Accordion, Card, Button } from 'react-bootstrap';
 
 const AccordionOne = ({ customStyle }) => {
   return (
@@ -15,7 +15,8 @@ const AccordionOne = ({ customStyle }) => {
         </Card.Header>
         <Accordion.Collapse eventKey="0">
           <Card.Body>
-            Children and teens aged 8-17 are eligible for the bootcamps.
+            Children and teens aged 8-19 are eligible for the
+            bootcamps.
           </Card.Body>
         </Accordion.Collapse>
       </Card>
@@ -27,7 +28,9 @@ const AccordionOne = ({ customStyle }) => {
           </Accordion.Toggle>
         </Card.Header>
         <Accordion.Collapse eventKey="1">
-          <Card.Body>Yes, all bootcamps are free of charge.</Card.Body>
+          <Card.Body>
+            Yes, all bootcamps are free of charge.
+          </Card.Body>
         </Accordion.Collapse>
       </Card>
 
@@ -45,13 +48,14 @@ const AccordionOne = ({ customStyle }) => {
       <Card>
         <Card.Header>
           <Accordion.Toggle as={Button} variant="link" eventKey="3">
-            What are the different types of bootcamps offered by the foundation?
+            What are the different types of bootcamps offered by the
+            foundation?
           </Accordion.Toggle>
         </Card.Header>
         <Accordion.Collapse eventKey="3">
           <Card.Body>
-            The foundation offers three distinct bootcamps: the math bootcamp,
-            coding bootcamp, and design bootcamp.
+            The foundation offers three distinct bootcamps: the math
+            bootcamp, coding bootcamp, and design bootcamp.
           </Card.Body>
         </Accordion.Collapse>
       </Card>
