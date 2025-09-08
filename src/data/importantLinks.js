@@ -1,6 +1,6 @@
 const importantLinks = {
-  applyNigeria: 'https://form.typeform.com/to/TXhYPqwa',
-  applyUSA: 'https://goodhopetutoring.typeform.com/to/mhQ4lM9A',
+  applyNigeria: 'https://form.typeform.com/to/mhQ4lM9A',
+  applyUSA: 'https://form.typeform.com/to/pHkcqw9H',
   donate:
     'https://donorbox.org/food-and-education-for-impoverished-children',
   volunteer: 'https://form.typeform.com/to/OQbkkXrF',
